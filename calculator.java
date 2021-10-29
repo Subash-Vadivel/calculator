@@ -19,7 +19,7 @@ class calculator
             int ch=s.nextInt();
             System.out.println("ENTER NUM 1 : ");
             int n1=s.nextInt();
-            System.out.println("ENTER NUM 2 : ");
+            System.out.println("ENTER NUM 2 c : ");
             int n2=s.nextInt();
             switch(ch)
             {
