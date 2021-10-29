@@ -1,10 +1,7 @@
 import java.util.Scanner;
 class calculator
 {
-    int mul(int a,int b)
-    {
-        return a*b;
-    }
+  
     
     public static void main(String args[])
     {
@@ -24,10 +21,10 @@ class calculator
             switch(ch)
             {
                 case 1:
-                      System.out.println("ADD : "+((a+b)); 
+                      System.out.println("ADD : "+((n1+n2)); 
 		      break;
                 case 2:
-                     System.out.println("MULtiPLICATION : "+c.mul(n1,n2)); 
+                     System.out.println("MULtiPLICATION : "+(n1*n2)); 
 		     break;
                 case 3:
                      loop=0;
